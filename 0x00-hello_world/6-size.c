@@ -1,15 +1,14 @@
 #include<stdio.h>
+/**
+ * main - Entery
+ * Return: Always 0
+ */
 int main() 
 {
- int intType;
- float floatType;
- double doubleType;
- char charType;
- sizeof evaluates the size of a variable
-    	 printf("Size of int: %zu bytes\n", sizeof(int));
-         printf("Size of float: %zu bytes\n", sizeof(float));
-         printf("Size of double: %zu bytes\n", sizeof(double));
-         printf("Size of char: %zu byte\n", sizeof(char))
-			                         return 0;
-			                            }
+	printf("Size of int: %i bytes\n", sizeof(int));
+       	printf("Size of float: %i bytes\n", sizeof(float));
+        printf("Size of double: %i bytes\n", sizeof(double));
+        printf("Size of char: %i byte\n", sizeof(char))
+	       	return ( 0);
+}
 			   
